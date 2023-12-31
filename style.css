@@ -1,0 +1,287 @@
+body{
+    margin:0%;
+}
+
+header{
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(image/background_img.webp);
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+
+.horizontal-list{
+    list-style: none;
+    padding-left: 0%;
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 2px 8px 0px 8px;
+}
+
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    transition: color 0.5s, border-bottom 8s;
+}
+
+.horizontal-list li a:hover{
+    color: lightgray;
+    border-bottom: 1px solid white;
+}
+
+#name-heading h1{
+    color: white;
+    padding-top: 5vh;
+    letter-spacing: 0.1rem;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 10vh;
+}
+@media only screen and (max-width: 600px) {
+    #name-heading h1{
+        color: white;
+        padding-top: 7vh;
+        letter-spacing: 0.1rem;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 5vh;
+    }
+  }
+
+.social-links li a img{
+    height: 5vh;
+    transition: height 1s;
+}
+
+.social-links li a img:hover{
+    height: 8vh;
+}
+
+.social-links li a{
+    border-bottom: none;
+    transition: box-shadow 1s;
+}
+
+.social-links li a:hover{
+    border-bottom: none;
+    box-shadow: 0px 0px 6px white;
+    border-radius: 10%;
+    margin-top: 0%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#my-image{
+    height: 15rem;
+    width: 15rem;
+    margin:auto;
+    margin-top: -18vh;
+}
+
+#my-image img{
+    height: 100%;
+    width: 100%;
+    max-width: 15rem;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0px 0px 6px white;
+}
+
+#about p{
+    margin: 5% 16% 5% 16%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    line-height: 2rem;
+    color:rgb(31, 11, 206);
+}
+
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-display{
+    width: 70%;
+    /* height: 100px; */
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.skill-progress{
+    width: 7rem;
+    height: 1.4rem;
+    background-color: darkgray;
+    border-radius: 0.8rem;
+    border: 2px solid black;
+    margin: 20px 20px 20px 20px;
+}
+
+.skill-progress>div{
+    border-radius: 20px 0px 0px 20px;
+}
+
+.skill-name span{
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.java{
+    background-color: rgb(216, 13, 98);
+    width: 85%;
+    height: inherit;
+}
+.ReactJS{
+    background-color: rgb(13, 84, 216);
+    width: 85%;
+    height: inherit;
+}
+.NodeJS{
+    background-color: rgb(175, 13, 216);
+    width: 80%;
+    height: inherit;
+}
+.HTML{
+    background-color: rgb(216, 145, 13);
+    width: 90%;
+    height: inherit;
+}
+.CSS{
+    background-color: rgb(145, 216, 13);
+    width: 90%;
+    height: inherit;
+}
+.Javascript{
+    background-color: rgb(255, 0, 0);
+    width: 80%;
+    height: inherit;
+}
+.SQL{
+    background-color: rgb(13, 192, 216);
+    width: 85%;
+    height: inherit;
+}
+.Mongoose{
+    background-color: rgb(152, 13, 216);
+    width: 70%;
+    height: inherit;
+}
+.firebase{
+    background-color: rgb(216, 13, 98);
+    width: 60%;
+    height: inherit;
+}
+
+section:nth-child(2n){
+    background-color: rgb(233, 233, 233);
+}
+section:nth-child(2n+1){
+    background-color: white;
+}
+
+
+.sub-heading{
+    margin: auto;
+}
+.sub-heading span h2{
+    display: inline-block;
+}
+
+
+#contact{
+    background-image: linear-gradient(to top left, rgb(54, 0, 155),rgb(145, 49, 255));
+    color:white;
+}
+
+#contact-display div span h2{
+    display: inline-block;
+    color:white;
+}
+#contact-display div span h3{
+    display: inline-block;
+    color:aquamarine;
+}
+#contact-display div span span{
+    display: inline-block;
+    color:aquamarine;
+}
+#contact-display div span a{
+    display: inline-block;
+    color:aquamarine;
+}
+#contact-display div span a h3:hover{
+    color: red;
+    border-bottom: 1px solid white;
+}
+
+
+.timeline{
+    position:relative;
+    width: 75%;
+    
+}
+.timeline-box{
+    position: relative;
+    width: 45%;
+}
+.timeline-box:nth-child(2n){
+    left: 60%;
+}
+.timeline-box h1{
+    color: rgb(0, 0, 172);
+}
+.timeline-box h1{
+    color: rgb(0, 0, 172);
+}
+.school-info{
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+}
+.school-name{
+    color: rgb(214, 0, 100);
+}
+.timeline-devider{
+    position: absolute;
+    height: 75%;
+    width: 0;
+    border: 2px dashed #5555556b;
+    top: 10%;
+    left: 50%;
+}
+.timeline-traveller{
+    position: sticky;
+    top: 25%;
+    transform: rotate(90deg);
+}
+#skills{
+    /* padding-top: 15vh; */
+    padding-bottom: 15vh;
+}
+#experience{
+    /* padding-top: 15vh; */
+    padding-bottom: 15vh;
+}
+#education{
+    /* padding-top: 15vh; */
+    padding-bottom: 15vh;
+}
+#contact{
+    /* padding-top: 15vh; */
+    padding-bottom: 15vh;
+}
